@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body class="fixed-header">
+  <!-- header -->
+  {% include header.html %}
+  <!-- /header -->
+
+  <!-- main -->
+  {% include hero.html %}
+
+  <section class="toolbar toolbar-links">
+    <div class="container">
+      <h5>A-Z of {{site.pages | size}} Posts</h5>
+      
+      <!--<ul class="toolbar-nav hidden-md-down m-r-25">
+        <li><a href="#tutorials">Tutorials</a></li>
+        <li class="active"><a href="#games">Games</a></li>
+      </ul>-->
+    </div>
+  </section>
+
+  <section class="rr-home-section">
+    <div class="container">
+      <div class="row row-5">
+        
+        {% for post in site.pages %}
+        {% if post.image or post.youtube %}
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card card-video wow slideInUp">
+                  <div class="card-img">
+                      <a href="{{ post.url }}">
+                        {% if post.image %}
+                            <img src="/public/images/RetroReversingLogoSmall.png" class="lazy-load" data-image-full="{{ post.image }}" alt="{{ post.title }}">
+                        {% else if post.youtube %}
+                            <img src="/public/images/RetroReversingLogoSmall.png" class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
+                        {% endif %}
+                      </a>
+                      {% if post.recommend %}
+                        <div class="card-meta">
+                          {% if post.recommend.first %}
+                            <span>{{ post.recommend.first }}</span>
+                          {% else %}
+                            <span>{{ post.recommend }}</span>
+                          {% endif %}
+                        </div>
+                      {% endif %}
+                  </div>
+                  <div class="card-block">
+                       <h4 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+<!--                        <div class="card-meta">
+                        <span><i class="fa fa-clock-o"></i> May 21, 2017</span>
+                        <span>436 views</span>
+                       </div>       -->
+                  </div>
+              </div>
+        </div>
+        {% endif %}
+        {% endfor %}     
+      </div>
+      
+      
+   
+    </div>
+    
+    <div class="rr-twitter">
+      <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/RetroReversing?ref_src=twsrc%5Etfw">Tweets by RetroReversing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    </div>
+      
+  </section>
+  <!-- /main -->
+
+  {% include footer.html %}
+
+ 
+</body>
+</html>

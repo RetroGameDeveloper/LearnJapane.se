@@ -1,0 +1,144 @@
+<!-- footer -->
+  <footer id="footer">
+    <div class="container">
+          <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <h4 class="footer-title">About RetroReversing</h4>
+                <p>RetroReversing is a hand-picked list of the best Reverse Engineering material available on the web. All our content is of high quality and all content references the original source.</p>
+              </div>
+            <div class="col-sm-12 col-md-6">
+                <h4 class="footer-title">Help Us Provide the Correct Answer</h4>
+                <p>"The best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer." - Cunningham's Law</p>
+            </div>
+            
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-social">
+              <a rel="noreferrer" href="https://twitter.com/RetroReversing" target="_blank" data-toggle="tooltip" title="twitter"><i class="fa fa-twitter"></i></a>
+              <a rel="noreferrer" href="https://www.youtube.com/user/RetroReversing" target="_blank" data-toggle="tooltip" title="youtube"><i class="fa fa-youtube"></i></a>
+            </div>
+            <p>Copyright &copy; 2019 <a href="https://www.retroreversing.com/" target="_blank">Retro Reversing</a>. All rights reserved.</p>
+          </div>
+    </div>
+  </footer>
+  <!-- /footer -->
+<script src="/public/js/jquery.min.js"></script>
+<script src="/public/js/popper.min.js"></script>
+<script src="/public/js/bootstrap.min.js"></script>
+<script src="/public/js/owl.carousel.min.js"></script>
+<script src="/public/js/lightbox.js"></script>
+<script src="/public/js/mermaid.min.js"></script>
+<script src="/public/js/wow.min.js"></script>
+<script src="/public/js/generateTOC.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script> -->
+<script src="/public/js/binary_parser.bundle.js"></script>
+<script src="/public/js/binary_unparser.bundle.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script> -->
+
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.2/b-colvis-1.5.2/b-html5-1.5.2/r-2.2.2/rg-1.0.3/sc-1.5.0/datatables.min.js"></script>
+          
+  <script>
+    
+    // wait for the entire page to finish loading
+    window.addEventListener('load', function() {
+
+      // setTimeout to simulate the delay from a real page load
+      setTimeout(lazyLoad, 1000);
+
+    });
+
+    function lazyLoad() {
+      var card_images = document.querySelectorAll('.lazy-load');
+
+      // loop over each card image
+      card_images.forEach(function(content_image) {
+        
+//         var content_image = card_image.querySelector('img');
+        var image_url = content_image.getAttribute('data-image-full');
+
+        // change the src of the content image to load the new high res photo
+        content_image.src = image_url;
+
+        // listen for load event when the new photo is finished loading
+        content_image.addEventListener('load', function() {
+          // swap out the visible background image with the new fully downloaded photo
+//           card_image.style.backgroundImage = 'url(' + image_url + ')';
+          // add a class to remove the blur filter to smoothly transition the image change
+//           card_image.className = card_image.className + ' is-loaded';
+        });
+
+      });
+
+    }
+    
+    
+    (function($) {
+      "use strict";
+      
+      var items = 1;
+//       if ($(window).width() > 600) {
+//         items=2;
+//       }
+
+      // Full Width Carousel
+      $('.owl-slide-auto-play').owlCarousel({
+        nav: true,
+        loop: true,
+        autoplay: true,
+        items: items
+      });
+      
+      $('.owl-slide-no-auto').owlCarousel({
+        nav: true,
+        loop: true,
+        autoplay: false,
+        items: 1
+      });
+
+      // Recent Reviews
+//       $('.owl-list').owlCarousel({
+//         margin: 25,
+//         nav: true,
+//         dots: false,
+//         responsive: {
+//           0: {
+//             items: 1
+//           },
+//           500: {
+//             items: 2
+//           },
+//           701: {
+//             items: 3
+//           },
+//           1000: {
+//             items: 4
+//           }
+//         }
+//       });
+      
+      // Make markdown tables have the bootstrap table class to look pretty
+      $('table').addClass('table');
+     
+      $('table').DataTable();
+
+      // lightbox
+//       $('[data-lightbox]').lightbox();
+      
+      // scroll animations
+      new WOW().init();
+    })(jQuery);
+    
+//     $(document).ready(function() {
+//         $('.postSection .postImage').magnificPopup({
+//           type: 'image',
+//           closeOnContentClick: true,
+//           mainClass: 'mfp-img-mobile',
+//           image: {
+//             verticalFit: true
+//           }
+//         });
+//     });
+  </script>
+<script src="/public/js/main.js"></script>

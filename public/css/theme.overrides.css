@@ -1,0 +1,209 @@
+#header .logo {
+  color: white;
+  font-weight: 600;
+}
+
+.post ul {
+  list-style-type: initial;
+  padding-left: 5%;
+  margin: initial;
+  margin-top: 5px;
+  margin-left: 4%;
+  font-size: 1.15em;
+}
+
+.post a {
+  text-decoration: underline ;
+}
+
+.post h1 {
+  padding-top: 30px;
+  color: #0085b6;
+}
+
+.post h2, .post h3, .post h4 {
+  color: #0085b6;
+  margin-left: 5px;
+}
+
+.post h3 {
+   margin-left: 10px;
+}
+
+.post h4 {
+   margin-left: 15px;
+}
+
+.post {
+  color: #333;
+}
+
+. widget-friends i {
+  width:64px;
+  height:64px;
+  text-align: center;
+}
+
+
+/*  ILBM Viewer */
+.draghint {
+  display: table;
+  box-sizing: border-box;
+  border-width: 10px;
+  border-style: dashed;
+  background-color: white;
+  border-color: #ccc;
+  width: 100%;
+}
+  
+.dragtext {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #999;
+}
+  
+.hover {
+  border-color: #333;
+}
+
+.postImage {
+  width:30vw;
+  float: left;
+  margin-right: 10px;
+}
+
+.postSection {
+  line-height: 2;
+}
+
+.largeCode {
+max-height: 40vh;
+overflow: scroll;
+  
+  ::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
+}
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+.dataTables_length label {
+  display:flex;
+  padding: 10px;
+}
+
+.row p {
+  padding: 5px;
+  font-family: Georgia,Times,"Times New Roman",serif;
+  font-size: 1.15em;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  margin-bottom: 5px;
+  padding-left: 4%;
+}
+
+.dataTables_filter input {
+  border: 1px lightgrey solid;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.post .post-header > div:last-child .post-title {
+  font-size: 2em;
+  margin-top: 0px;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.footnotes p {
+  padding:0px;
+  margin-bottom:1px;
+}
+
+.jumper {
+  font-weight: 500;
+  color: #0085b6;
+  margin-bottom:5px;
+  margin-top:15px;
+}
+
+.jumper--H2, .jumper--H3, .jumper--H4, .jumper--H5, .jumper--H6 {
+  font-size:0.8em;
+}
+
+.jumper--H2 {
+  margin-left: 10px;
+}
+
+.jumper--H3 {
+  margin-left: 15px;
+}
+
+.jumper--H4 {
+  margin-left: 20px;
+}
+
+.jumper--H5 {
+  margin-left: 25px;
+}
+
+.jumper--H6 {
+  margin-left: 30px;
+}
+
+blockquote {
+  border-left-color: #0085b6;
+}
+
+.dataTable a {
+  color: #007bff !important;
+}
+
+.linkToOtherPost {
+  display: flex;
+  .widget-img img {
+    height: 100px !important;
+  }
+}
+
+.linkToOtherPost blockquote {
+  display:flex;
+}
+
+.linkToOtherPost .widget-img img {
+  height: 100px !important;
+}
+
+.jstree-default .jstree-anchor {
+  font-size: 14px !important;
+}
+
+.jstree-default .jstree-node {
+  margin-left:0px !important;
+}
+
+.jstree .jstree-children {
+  margin-top: 0px !important;
+  padding-left: 0px !important;
+}
