@@ -4,6 +4,9 @@ https://www.learnjapane.se/
 
 # Future Posts
 
+## Reading & Writing
+- [Why Writing Japanese is So Complicated - YouTube](https://www.youtube.com/watch?v=Cj-WoZWiiDY)
+
 ## Culture
 - Why People Don’t Get Japanese Comedy - [Why People Don’t Get Japanese Comedy - YouTube](https://www.youtube.com/watch?v=jo1yETJ3hy0)
 
