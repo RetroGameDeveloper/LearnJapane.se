@@ -23,8 +23,16 @@ recommend:
 editlink: /ReadingAndWriting/Hiragana.md
 ---
 
+# Hiragana Introduction
 Hiragana contains 46 characters.
 
+## Contains every pronouncable japanese character
+```
+Hiragana is the basic Japanese phonetic alphabet. It represents every sound in the Japanese language. Therefore, you can theoretically write everything in hiragana. However, because Japanese is written with no spaces, this will create nearly indecipherable text.
+``` 
+[^1]
+
+## Furigana
 You can use Hiragana as little small notes beside a Kanji character to tell you how to pronounce it, this use of Hiragana is called `furigana`.
 
 # Vowels
@@ -67,3 +75,7 @@ There are 5 consonents in the  K-column of Hiragana:
 
 ## Questions? か = ? (Kah)uestions
 * か (kah) is the question mark particle in japanese, so you won't see the standard ? symbol after a question you will instead see か.
+
+---
+# References
+[^1]: [What is Hiragana? – JapaneseUp](https://japaneseup.com/what-is-hiragana/)
