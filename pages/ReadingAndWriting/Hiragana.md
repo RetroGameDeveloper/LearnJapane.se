@@ -28,7 +28,7 @@ Hiragana contains 42 characters.
 # Vowels
 There are 5 vowels in Hiragana:
 * あ - Ah (Think apple)
-* い - I (Think of two i's) but seems to be pronounces as e...
+* い - I (Think of two i's) but seems to be pronounces as eee (long e sound)
 * う - U/ew (Think of a boxer getting punched in stomach and the noise it would make)
 * え - Eh (Think of an energetic Ninja)
 * お - Oh (Think of a UFO)
@@ -39,4 +39,4 @@ The difference in the symbol can be subtle but look for the floating symbol in t
 あ (ah) is used at the end of characters.
 
 # い (I) Stomach
-い is actually a word by itself to mean Stomach, and its pronounced like an E like eat.
+い is actually a word by itself to mean Stomach, and its pronounced like an E like eeeat.
