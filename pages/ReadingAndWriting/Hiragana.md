@@ -23,7 +23,9 @@ recommend:
 editlink: /ReadingAndWriting/Hiragana.md
 ---
 
-Hiragana contains 42 characters.
+Hiragana contains 46 characters.
+
+You can use Hiragana as little small notes beside a Kanji character to tell you how to pronounce it, this use of Hiragana is called `furigana`.
 
 # Vowels
 There are 5 vowels in Hiragana:
@@ -31,7 +33,7 @@ There are 5 vowels in Hiragana:
 * い - eee (Think of two i's) but seems to be pronounces as eee (long e sound)
 * う - oo/ew (Think of a boxer getting punched in stomach and the noise it would make like Oof without the f)
 * え - Eh (Think of an (eh)nergetic Ninja) ignore the n
-* お - Oh (Think of a UFO)
+* お - Ou (Think of a UFO)
 
 ## Ah vs Oh or あ vs お
 The difference in the symbol can be subtle but look for the floating symbol in the top right of お (Oh).
@@ -50,3 +52,18 @@ The difference in the symbol can be subtle but look for the floating symbol in t
 ## ee and Eh creates NO!
 Think of Grumpy cat saying No, but instead saying eeeeeh (いいえ).
 * いいえ (eeeeeh) - No
+
+## BLUE! - AhOuEe (あおい)
+* あおい - Blue
+
+---
+# Hiragana K Column
+There are 5 consonents in the  K-column of Hiragana:
+* か - Kah (Think of a Sword Cutting a Stick) (Question Mark particle)
+* き - Ki (Think of )
+* く - Ku
+* け - Ke
+* こ - Ko
+
+## Questions? か = ? (Kah)uestions
+* か (kah) is the question mark particle in japanese, so you won't see the standard ? symbol after a question you will instead see か.
