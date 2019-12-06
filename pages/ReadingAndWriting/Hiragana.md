@@ -24,7 +24,10 @@ editlink: /ReadingAndWriting/Hiragana.md
 ---
 
 # Hiragana Introduction
-Hiragana contains 46 characters.
+Hiragana contains 46 characters, it is used for actual japanese words unlike Katagana which is used for loan words from other languages.
+
+## Kana
+Both Hiragana and Katagana together are known as Kana.
 
 ## Contains every pronouncable japanese character
 ```
