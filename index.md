@@ -1,22 +1,13 @@
 ---
 layout: home
-title: Retro Reverse Engineering
+title: LearnJapane.se - Learn Japanese in the most fun way possible through video games!
 permalink: /
-recommend: gameboy
+recommend: basics
 herocarousel:
-  - herotitle: "Turok64 Source Code Analysis"
-    image: https://www.retroreversing.com/public/games/turok/Turok%20-%20Dinosaur%20Hunter%20(USA)%20(Rev%20B)%203D.png
-    herotext: "Discover the long lost secrets of the ancient Turok Dinosaur Hunter Source Code for Nintendo 64 and PC"
-    herolink: /turok64sourcecode
-  - herotitle: "Retrogame Archeology"
+  - herotitle: "Explore Japanese Writing"
     image: https://i.ytimg.com/vi/k6PWZh0MJ1Y/maxresdefault.jpg
-    herotext: "John Aycokc, Associate Professor Computer Science, University of Calgary uses retrogame archeology to look under the hood of old games to uncover the clever tricks that make them tick. Learn about what retrogame archeology is (and isn't) and how old games are studied today."
-    herolink: /retrogame-archeology
-  - herotitle: "Ultra 64"
-    image: /public/hero/Nintendo 64 Hero.jpg
-    herotext: "Reversing N64 games has never been so easy!"
-    herolink: /n64  
-    
+    herotext: "Learn the difference between Kanji, Katakana and its sister Hiragana."
+    herolink: /explore-japanese-writing
 redirect_from:
   - /general
   - /featured
