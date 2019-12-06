@@ -80,5 +80,13 @@ There are 5 consonents in the  K-column of Hiragana:
 * か (kah) is the question mark particle in japanese, so you won't see the standard ? symbol after a question you will instead see か.
 
 ---
+# Hiragana H Column
+
+A Good tip from `Kori Chan` on Youtube is:
+```
+Between "ha" and "ho" you can see that the right part of ほ looks like it says "ho" horizontally
+```
+
+---
 # References
 [^1]: [What is Hiragana? – JapaneseUp](https://japaneseup.com/what-is-hiragana/)
