@@ -6,7 +6,7 @@ tags:
 title: Hiragana
 image:  http://img.youtube.com/vi/6p9Il_j0zjc/0.jpg
 videocarousel:
-  - title: EarlyDaysOf3DSHacking
+  - title: Hiragana Vowels
     image: http://img.youtube.com/vi/6p9Il_j0zjc/0.jpg
     youtube: '6p9Il_j0zjc'
 permalink: /Hiragana
