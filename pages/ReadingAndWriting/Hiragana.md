@@ -30,7 +30,7 @@ There are 5 vowels in Hiragana:
 * あ - Ah (Think apple)
 * い - eee (Think of two i's) but seems to be pronounces as eee (long e sound)
 * う - oo/ew (Think of a boxer getting punched in stomach and the noise it would make like Oof without the f)
-* え - Eh (Think of an energetic Ninja)
+* え - Eh (Think of an (eh)nergetic Ninja) ignore the n
 * お - Oh (Think of a UFO)
 
 ## Ah vs Oh or あ vs お
@@ -46,3 +46,7 @@ The difference in the symbol can be subtle but look for the floating symbol in t
 
 ## oo and Eh makes UP, UP and ABOVE!
 * うい (ooeh) = Up or Above
+
+## ee and Eh creates NO!
+Think of Grumpy cat saying No, but instead saying eeeeeh (いいえ).
+* いいえ (eeeeeh) - No
